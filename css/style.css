@@ -1,0 +1,484 @@
+@charset "UTF-8";
+
+/* ----------------------------------------
+	reset
+----------------------------------------- */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5{
+	font-weight: normal;
+}
+ul, ol {
+  list-style: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+	text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ----------------------------------------
+	common parts
+----------------------------------------- */
+.container {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.sec{
+	margin: 0 4% 40px;
+}
+.i_block {
+	margin-bottom: 30px;
+}
+.text {
+	font-size: 1rem;
+	color: #333333;
+	margin: 0 0 1.5em;
+	text-align: justify;
+	text-indent:1em;
+}
+
+#info_3feature .bgImg_01{
+	background: url(../img/info_3feature_bg_01.png) no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+#info_3feature .bgImg_02{
+	background: url(../img/info_3feature_bg_02.png) no-repeat;
+	background-size: contain;
+	background-size: 29%;
+	background-position: right;
+}
+#info_3feature .bgImg_03{
+	background: url(../img/info_3feature_bg_03.png) no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+#info_3feature .text {
+}
+
+.indent{
+	text-indent:1em;
+}
+.container img {
+	max-width: 100%;
+}
+.container h2 {
+	font-size: 1.3rem;
+	color:#FA6E6E;
+	margin: 0 0 1em;
+	text-align: center;
+}
+.container h2::after{
+	content: "";
+	width: 4em;
+	height: 0.5em;
+	border-bottom: solid 2px #FA6E6E;
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+.container h3 {
+	font-size: 1rem;
+	font-weight: bold;
+	color:#333333;
+	margin: 0 0 .5em;
+}
+.container .info_3feature h3 {
+	line-height: 1rem;
+	padding-left: 1.4em;
+	position: relative;
+}
+.container .info_3feature h3::before {
+	content: "";
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	background-color: #f5c877;
+	background-size: contain;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto 0;
+}
+
+
+/* 文字装飾 */
+.red {
+	color: #FA6E6E;
+}
+.t_small {
+	font-size: .6rem;
+	font-weight: normal;
+}
+
+/* ボタン */
+.contactBtn_block {
+	display: block;
+	text-align: center;
+	margin: 10px auto 20px;
+}
+.contactBtn_block input {
+	display: block;
+	width: 85%;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* ----------------------------------------
+	header
+----------------------------------------- */
+header img{
+	width: 100%;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	z-index: 100;
+}
+.h_nav {
+	display: flex;
+	align-items: center;
+	margin: 12px 16px 0 26px;
+	position: relative;
+}
+.logo {
+	width: calc(70vw);
+	max-width: 320px;
+	padding: 5px 8px 4px;
+}
+.logo img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.menu {
+	width: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 4px;
+}
+.menu span:nth-child(1) {
+}
+/* ----------------------------------------
+	mainVisual
+----------------------------------------- */
+#mainVisual{
+	margin: 0 0 40px;
+}
+/* ----------------------------------------
+	salesContents
+----------------------------------------- */
+#salesContents {
+}
+.salesContents_bnr{
+	margin-bottom: 10px;
+}
+
+/* ----------------------------------------
+	worries(肩の痛み,腰の痛み..)
+----------------------------------------- */
+#worries{
+}
+.worries_bnr_01{
+	margin-bottom: 10px;
+}
+.worries_bnr_02 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+.worries_bnr_02 li {
+	width: 48%;
+	margin: 1%;
+}
+.worries_bnr_02 li img {
+}
+
+/* ----------------------------------------
+	table
+----------------------------------------- */
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+/* 料金表 */
+.price_table {
+}
+.price_table th {
+  background: #FFFAD7;
+}
+.price_table th,
+.price_table td {
+	font-size: .8rem;
+	font-weight: normal;
+	line-height: 1.5;
+  border: 1px solid #FA6E6E;
+	text-align: center;
+	padding: 10px 4px;
+}
+.price_table th {
+	font-size: .7rem;
+  background: #FFFAD7;
+}
+.price_table td {
+	width: 4em;
+}
+.price_table .ttl_cel {
+	width: 7em;
+	text-align: left;
+	padding: 10px;
+}
+.price_table .red {
+	color: #FA6E6E;
+}
+.price_table .t_small {
+	font-size: .6rem;
+	font-weight: normal;
+}
+/* 診療時間表 */
+.time_table {
+}
+.time_table th {
+  background: #FFFAD7;
+}
+.time_table th,
+.time_table td {
+	font-size: .8rem;
+	font-weight: normal;
+	line-height: 1.5;
+  border: 1px solid #FA6E6E;
+	text-align: center;
+	padding: 10px 4px;
+}
+.time_table th {
+	font-size: .7rem;
+  background: #FFFAD7;
+}
+.time_table td {
+	width: 4em;
+}
+.time_table td span{
+	color: #FA6E6E;
+}
+.time_table .ttl_cel {
+	width: 14em;
+	padding: 10px 4px;
+}
+.annotation{
+	color: #FA6E6E;
+	font-size: 0.8rem;
+	margin-top: 0.3em;
+}
+
+/* ----------------------------------------
+	introduction
+----------------------------------------- */
+#introduction{
+}
+.introduction_img_box {
+	text-align: center;
+	margin-bottom: 16px;
+}
+.introduction_img_box span {
+	width: 53.3333%;
+	display: inline-block;
+}
+.container .introduction_img_box img{
+}
+
+/* ----------------------------------------
+	voice
+----------------------------------------- */
+#voice {
+	background-color: #fffae6;
+	background-color: #FEE8C1;
+}
+#voice.sec{
+	margin:0;
+	padding:30px 12px 40px;
+}
+.voice_item{
+	display: flex;
+	margin-bottom: 20px;
+}
+.voice_item_imgBlock {
+	width: 26%;
+	margin-right: 8px;
+	text-align: center;
+}
+.voice_item_imgBlock div{
+}
+.voice_item_imgBlock span{
+	font-size: .8rem;
+	line-height: 1.3;
+	display: inline-block;
+	margin-top: .5em;
+}
+.voice_item_imgBlock img{
+	vertical-align: middle;
+}
+.voice_item_txt{
+	width: 80%;
+	font-size: .8rem;
+	text-align: justify;
+}
+
+/* ----------------------------------------
+	contactForm
+----------------------------------------- */
+#contactForm{
+	background-color: #EBEBEB;
+	margin: 0;
+	padding: 30px 4% 20px;
+}
+form{
+  width:auto;
+  margin:0 auto;
+}
+.item{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.label{
+	display: block;
+}
+.inputs{
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type="text"],input[type="email"],input[type="tel"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+}
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+}
+.btn-area{
+  text-align: center;
+}
+input[type="submit"]{
+  background: #e0505c;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+input[type="reset"]{
+  background: #aaa;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+/* ----------------------------------------
+	access
+----------------------------------------- */
+#access {
+	margin: 20px 0 0;
+}
+.sec.access h3, .sec.access p{
+	margin: 0 10px .5em;
+}
+.gmap iframe{
+	width: 100%;
+	height: 360px;
+}
+.access h3 {
+	position: relative;
+	padding-left: 1.4em;
+}
+.access h3::before {
+	content: "";
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	background-color: #f5c877;
+	background-size: contain;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto 0;
+}
+.access .address {
+	font-size: .9rem;
+}
+
+/* ----------------------------------------
+	footer
+----------------------------------------- */
+.footer_fixed {
+	background: #FFF;
+	border-top: 2px solid #FA6E6E;
+	padding: 5px 2px 5px 5px;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+	clear: both;
+	z-index: 1000;
+	width: 100%;
+}
+.tel_bnr li {
+	animation: rumble 0.5s linear infinite;
+	max-width: 680px;
+	width: 48%;
+	margin: 0 1% 0;
+	float: left;
+}
+@keyframes rumble{
+ 0% {transform:rotate(0deg);}
+ 12.5% {transform:rotate(0.8deg);}
+ 25% {transform:rotate(1.6deg);}
+ 37.5% {transform:rotate(0.8deg) ;}
+ 50% {transform:rotate(0deg);}
+ 62.5% {transform:rotate(-0.8deg);}
+ 75% {transform:rotate(-1.6deg);}
+ 87.5% {transform:rotate(-0.8deg);}
+ 100% {transform:rotate(0deg);}
+}
+@-webkit-keyframes rumble{
+ 0% {-webkit-transform:rotate(0deg);}
+ 12.5% {-webkit-transform:rotate(0.8deg);}
+ 25% {-webkit-transform:rotate(1.6deg);}
+ 37.5% {-webkit-transform:rotate(0.8deg) ;}
+ 50% {-webkit-transform:rotate(0deg);}
+ 62.5% {-webkit-transform:rotate(-0.8deg);}
+ 75% {-webkit-transform:rotate(-1.6deg);}
+ 87.5% {-webkit-transform:rotate(-0.8deg);}
+ 100% {-webkit-transform:rotate(0deg);}
+}
