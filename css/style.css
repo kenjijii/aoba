@@ -311,12 +311,11 @@ table {
 	voice
 ----------------------------------------- */
 #voice {
-	background-color: #fffae6;
-	background-color: #FEE8C1;
+	background-color: #fffad7;
 }
 #voice.sec{
 	margin:0;
-	padding:30px 12px 40px;
+	padding:30px 12px 10px;
 }
 .voice_item{
 	display: flex;
