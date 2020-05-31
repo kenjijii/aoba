@@ -369,7 +369,7 @@ form{
   box-sizing: border-box;
 }
 input[type="text"],input[type="email"],input[type="tel"]{
-  border: solid 1px #aaa;
+  border:none;
   border-radius:5px;
   padding:10px;
   font-size: 15px;
