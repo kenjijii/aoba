@@ -12,7 +12,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'M PLUS Rounded 1c', sans-serif;	
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 h1, h2, h3, h4, h5{
 	font-weight: normal;
@@ -78,7 +78,7 @@ table {
 }
 .container h2 {
 	font-size: 1.3rem;
-	color:#FA6E6E;
+	color:#0AAA28;
 	margin: 0 0 1em;
 	text-align: center;
 }
@@ -86,7 +86,7 @@ table {
 	content: "";
 	width: 4em;
 	height: 0.5em;
-	border-bottom: solid 2px #FA6E6E;
+	border-bottom: solid 2px #0AAA28;
 	display: block;
 	margin: 0 auto;
 	vertical-align: middle;
@@ -121,7 +121,7 @@ table {
 
 /* 文字装飾 */
 .red {
-	color: #FA6E6E;
+	color: #0AAA28;
 }
 .t_small {
 	font-size: .6rem;
@@ -233,7 +233,7 @@ table {
 	font-size: .8rem;
 	font-weight: normal;
 	line-height: 1.5;
-  border: 1px solid #FA6E6E;
+  border: 1px solid #0a8c28;
 	text-align: center;
 	padding: 10px 4px;
 }
@@ -250,7 +250,7 @@ table {
 	padding: 10px;
 }
 .price_table .red {
-	color: #FA6E6E;
+	color: #0a8c28;
 }
 .price_table .t_small {
 	font-size: .6rem;
@@ -267,7 +267,7 @@ table {
 	font-size: .8rem;
 	font-weight: normal;
 	line-height: 1.5;
-  border: 1px solid #FA6E6E;
+  border: 1px solid #0a8c28;
 	text-align: center;
 	padding: 10px 4px;
 }
@@ -279,14 +279,14 @@ table {
 	width: 4em;
 }
 .time_table td span{
-	color: #FA6E6E;
+	color: #0AAA28;
 }
 .time_table .ttl_cel {
 	width: 14em;
 	padding: 10px 4px;
 }
 .annotation{
-	color: #FA6E6E;
+	color: #0AAA28;
 	font-size: 0.8rem;
 	margin-top: 0.3em;
 }
@@ -444,7 +444,7 @@ input[type="reset"]{
 ----------------------------------------- */
 .footer_fixed {
 	background: #FFF;
-	border-top: 2px solid #FA6E6E;
+	border-top: 2px solid #0a8c28;
 	padding: 5px 2px 5px 5px;
 	position: fixed;
 	bottom: 0;
