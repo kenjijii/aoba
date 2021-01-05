@@ -78,7 +78,7 @@ table {
 }
 .container h2 {
 	font-size: 1.3rem;
-	color:#0AAA28;
+	color:#28BE78;
 	margin: 0 0 1em;
 	text-align: center;
 }
@@ -86,7 +86,7 @@ table {
 	content: "";
 	width: 4em;
 	height: 0.5em;
-	border-bottom: solid 2px #0AAA28;
+	border-bottom: solid 2px #28BE78;
 	display: block;
 	margin: 0 auto;
 	vertical-align: middle;
@@ -121,7 +121,7 @@ table {
 
 /* 文字装飾 */
 .red {
-	color: #0AAA28;
+	color: #28BE78;
 }
 .t_small {
 	font-size: .6rem;
@@ -279,14 +279,14 @@ table {
 	width: 4em;
 }
 .time_table td span{
-	color: #0AAA28;
+	color: #28BE78;
 }
 .time_table .ttl_cel {
 	width: 14em;
 	padding: 10px 4px;
 }
 .annotation{
-	color: #0AAA28;
+	color: #28BE78;
 	font-size: 0.8rem;
 	margin-top: 0.3em;
 }
