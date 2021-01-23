@@ -61,7 +61,7 @@ header{
   z-index: 999;
 }
 #gloval-nav {
-  background-image: linear-gradient( rgba(40, 190, 120, 0.59), rgba(40, 190, 120, 0.99));
+  background-image: linear-gradient( rgba(40, 180, 110, 0.65), rgba(40, 180, 110, 0.99));
   color: #fff;
   position: fixed;
   width: 100%;
@@ -98,7 +98,7 @@ header{
   display: inline;
   color: #fff;
   text-decoration: none;
-  padding: 16px 0px 16px 1rem;
+  padding: 14px 0px 14px 1rem;
   font-size: 1rem;
 }
 #gloval-nav ul {
