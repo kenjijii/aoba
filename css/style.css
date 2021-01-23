@@ -162,9 +162,9 @@ header{
 	position: relative;
 }
 .logo {
-	width: calc(70vw);
+	width: calc(52vw);
 	max-width: 320px;
-	padding: 5px 8px 4px;
+	padding: 4px 0px 4px;
 }
 .logo img {
 	display: inline-block;
