@@ -410,7 +410,7 @@ input[type="reset"]{
 	margin: 20px 0 0;
 }
 .sec.access h3, .sec.access p{
-	margin: 0 10px .5em;
+	margin: 0 10px 1em;
 }
 .gmap iframe{
 	width: 100%;
