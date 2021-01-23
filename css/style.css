@@ -183,7 +183,7 @@ header{
 	mainVisual
 ----------------------------------------- */
 #mainVisual{
-	margin: 0 0 40px;
+	margin: 0 0 20px;
 }
 /* ----------------------------------------
 	salesContents
@@ -191,7 +191,7 @@ header{
 #salesContents {
 }
 .salesContents_bnr{
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 /* ----------------------------------------
