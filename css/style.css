@@ -453,12 +453,15 @@ input[type="reset"]{
 	z-index: 1000;
 	width: 100%;
 }
+.tel_bnr ul {
+	display: flex;
+	justify-content: center;
+}
 .tel_bnr li {
 	animation: rumble 0.5s linear infinite;
 	max-width: 680px;
 	width: 48%;
 	margin: 0 1% 0;
-	float: left;
 }
 @keyframes rumble{
  0% {transform:rotate(0deg);}
