@@ -461,7 +461,7 @@ input[type="reset"]{
 	animation: rumble 0.5s linear infinite;
 	max-width: 680px;
 	/* width: 48%; ボタン2コの場合 */
-        width: 100%; /* ボタン1コの場合 */
+        width: 96%; /* ボタン1コの場合 */
 	margin: 0 1% 0;
 }
 @keyframes rumble{
