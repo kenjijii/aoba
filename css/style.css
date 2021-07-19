@@ -460,28 +460,29 @@ input[type="reset"]{
 .tel_bnr li {
 	animation: rumble 0.5s linear infinite;
 	max-width: 680px;
-	width: 48%;
+	/* width: 48%; ボタン2コの場合 */
+	width: 80%; /* ボタン1コの場合 */
 	margin: 0 1% 0;
 }
 @keyframes rumble{
- 0% {transform:rotate(0deg);}
- 12.5% {transform:rotate(0.8deg);}
- 25% {transform:rotate(1.6deg);}
- 37.5% {transform:rotate(0.8deg) ;}
- 50% {transform:rotate(0deg);}
- 62.5% {transform:rotate(-0.8deg);}
- 75% {transform:rotate(-1.6deg);}
- 87.5% {transform:rotate(-0.8deg);}
- 100% {transform:rotate(0deg);}
+	0% {transform:rotate(0deg);}
+	12.5% {transform:rotate(0.6deg);}
+	25% {transform:rotate(1.2deg);}
+	37.5% {transform:rotate(0.6deg) ;}
+	50% {transform:rotate(0deg);}
+	62.5% {transform:rotate(-0.6deg);}
+	75% {transform:rotate(-1.2deg);}
+	87.5% {transform:rotate(-0.6deg);}
+	100% {transform:rotate(0deg);}
 }
 @-webkit-keyframes rumble{
- 0% {-webkit-transform:rotate(0deg);}
- 12.5% {-webkit-transform:rotate(0.8deg);}
- 25% {-webkit-transform:rotate(1.6deg);}
- 37.5% {-webkit-transform:rotate(0.8deg) ;}
- 50% {-webkit-transform:rotate(0deg);}
- 62.5% {-webkit-transform:rotate(-0.8deg);}
- 75% {-webkit-transform:rotate(-1.6deg);}
- 87.5% {-webkit-transform:rotate(-0.8deg);}
- 100% {-webkit-transform:rotate(0deg);}
+	0% {transform:rotate(0deg);}
+	12.5% {transform:rotate(0.6deg);}
+	25% {transform:rotate(1.2deg);}
+	37.5% {transform:rotate(0.6deg) ;}
+	50% {transform:rotate(0deg);}
+	62.5% {transform:rotate(-0.6deg);}
+	75% {transform:rotate(-1.2deg);}
+	87.5% {transform:rotate(-0.6deg);}
+	100% {transform:rotate(0deg);}
 }
