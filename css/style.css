@@ -351,6 +351,17 @@ table {
 	margin: 0px 0px 35px;
 	padding: 30px 4% 20px;
 }
+#salesContents_anc,
+#info_price_anc,
+#info_time_anc,
+#info_3feature_anc,
+#introduction_anc,
+#voice_anc,
+#contactForm_anc,
+#access_anc {
+	padding-top: 60px;
+	margin-top: -60px;
+}
 form{
   width:auto;
   margin:0 auto;
