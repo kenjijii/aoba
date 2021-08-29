@@ -50,7 +50,9 @@ table {
 	text-align: justify;
 	text-indent:1em;
 }
-
+.name {
+  text-align: right;
+}
 #info_3feature .bgImg_01{
 	background: url(../img/info_3feature_bg_01.png) no-repeat;
 	background-size: contain;
