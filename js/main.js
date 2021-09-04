@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // スムーススクロール(aタグのリンクに#がつく場合)
 $(function(){
-  $('a[href^="#"]').click(function(){
+  $('a[href^="#"]').not('#menu_btn').click(function(){
     var speed = 500;
     var href= $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
